@@ -36,7 +36,6 @@ cd Medical-Chatbot
 ```
 ### 2️⃣ Create a virtual environment
 ```bash
-Copy code
 python -m venv venv
 venv\Scripts\activate       # For Windows
 # OR
@@ -44,7 +43,6 @@ source venv/bin/activate    # For Mac/Linux
 ```
 ### 3️⃣ Install dependencies
 ```bash
-Copy code
 pip install -r requirements.txt
 ```
 ### 4️⃣ Create a .env file
@@ -56,6 +54,8 @@ PINECONE_API_KEY=your_pinecone_api_key
 ```bash
 python app.py
 ```
+#### Open your browser and visit:
+🌐 http://127.0.0.1:8080
 
 ---
 
@@ -68,8 +68,6 @@ What are the symptoms of diabetes?
 #### Chatbot:
 
 Common symptoms of diabetes include frequent urination, increased thirst, unexplained weight loss, fatigue, and blurred vision.
-#### Open your browser and visit:
-🌐 http://127.0.0.1:8080
 
 ---
 
@@ -77,5 +75,6 @@ Common symptoms of diabetes include frequent urination, increased thirst, unexpl
 
 Viveksi Taksali
 📧 viveksitaksali@gmail.com
+📍 GitHub: Viveksi-Taksali-27
 
 ---
