@@ -12,7 +12,6 @@ Users can ask medical-related questions, and the chatbot retrieves the most rele
 - ✅ **RAG pipeline** (Retriever + LLM integration)  
 - ✅ **Pinecone Vector Store** for semantic search  
 - ✅ **Flask web interface** with AJAX chat frontend  
-- ✅ Easy to **deploy on Render / local server**
 
 ---
 
