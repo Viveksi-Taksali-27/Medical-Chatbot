@@ -69,6 +69,10 @@ What are the symptoms of diabetes?
 Common symptoms of diabetes include frequent urination, increased thirst, unexplained weight loss, fatigue, and blurred vision.
 
 ---
+## Screenshot
+![Medical Chatbot](https://github.com/Viveksi-Taksali-27/Medical-Chatbot/blob/72bbe6aae6b68e0cd814db021248122df7a0151d/Screenshot%202025-11-04%20173150.png)
+
+---
 
 ## 👩‍💻 Author
 
