@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+
+{% block title %}Chat History{% endblock %}
+
+{% block content %}
+<style>
+/* Background gradient for medical feel */
+body {
+    background: linear-gradient(135deg, #dfe9f3, #ffffff);
+    color: #1e293b;
+}
+
+/* Glassmorphic card container */
+.card {
+    background: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #1e293b !important;
+}
+
+/* Header section */
+.card-header {
+    background: linear-gradient(90deg, #007bff, #66b3ff) !important;
+    color: #fff !important;
+    border-radius: 20px 20px 0 0 !important;
+    font-weight: 600;
+}
+
+/* Chat list */
+.list-group-item {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    color: #1e293b !important;
+    border: none !important;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+    background-color: rgba(230, 247, 255, 0.9) !important;
+    transform: scale(1.01);
+}
+
+/* User and bot text */
+.text-info {
+    color: #007bff !important;
+    font-weight: 600;
+}
+
+.text-success {
+    color: #009688 !important;
+    font-weight: 500;
+}
+
+/* Timestamp */
+.text-muted {
+    color: #555 !important;
+    font-size: 0.9rem;
+}
+
+/* Empty state */
+.empty-state {
+    color: #444;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Scrollbar */
+.card-body::-webkit-scrollbar {
+    width: 8px;
+}
+.card-body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 123, 255, 0.5);
+    border-radius: 10px;
+}
+.card-body::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 123, 255, 0.8);
+}
+</style>
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0" style="border-radius: 20px;">
+        <div class="card-header text-center">
+            <h3 class="mb-0"><i class="fas fa-history"></i> Chat History</h3>
+            <p class="mb-0">Welcome, <strong>{{ session['username'] }}</strong></p>
+        </div>
+        <div class="card-body" style="max-height: 500px; overflow-y: auto;">
+            {% if chats %}
+                <ul class="list-group list-group-flush">
+                    {% for chat in chats %}
+                        <li class="list-group-item">
+                            <strong class="text-info">You:</strong> {{ chat[0] }}<br>
+                            <strong class="text-success">Bot:</strong> {{ chat[1] }}<br>
+                            <small class="text-muted"><i class="far fa-clock"></i> {{ chat[2] }}</small>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <div class="text-center empty-state">
+                    <i class="fas fa-notes-medical fa-3x mb-3 text-primary"></i>
+                    <p class="mb-0">No chat history found yet.<br>Start a new conversation in the Chat section!</p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}
