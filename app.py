@@ -16,7 +16,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = "vini_secret_key" 
+app.secret_key = os.getenv("app.secret_key")
 # 🔑 Get keys
  
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
