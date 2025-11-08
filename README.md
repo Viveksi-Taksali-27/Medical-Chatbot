@@ -74,16 +74,17 @@ Common symptoms of diabetes include frequent urination, increased thirst, unexpl
 ---
 ## Screenshot
 ### 🏠 Login Page
-![Login Page](https://github.com/Viveksi-Taksali-27/Medical-Chatbot/blob/72bbe6aae6b68e0cd814db021248122df7a0151d/Screenshot%202025-11-04%20173150.png)
+![Login Page](https://github.com/Viveksi-Taksali-27/Medical-Chatbot/blob/ad381044c362c099aacee73a32b97cc3bae4cb03/Screenshot%202025-11-08%20175947.png)
 
 ### 🆕 Signup Page
-![Signup Page](https://github.com/Viveksi-Taksali-27/Medical-Chatbot/blob/72bbe6aae6b68e0cd814db021248122df7a0151d/Screenshot%202025-11-04%20173150.png)
+![Signup Page](https://github.com/Viveksi-Taksali-27/Medical-Chatbot/blob/ad381044c362c099aacee73a32b97cc3bae4cb03/Screenshot%202025-11-08%20180002.png)
 
 ### 💬 Chat Interface
-![Chat Interface](https://github.com/Viveksi-Taksali-27/Medical-Chatbot/blob/72bbe6aae6b68e0cd814db021248122df7a0151d/Screenshot%202025-11-04%20173150.png)
+![Chat Interface](https://github.com/Viveksi-Taksali-27/Medical-Chatbot/blob/ad381044c362c099aacee73a32b97cc3bae4cb03/Screenshot%202025-11-08%20182425.png)
 
 ### 🕓 Chat History
-![Chat History](https://github.com/Viveksi-Taksali-27/Medical-Chatbot/blob/72bbe6aae6b68e0cd814db021248122df7a0151d/Screenshot%202025-11-04%20173150.png)
+![Chat History](https://github.com/Viveksi-Taksali-27/Medical-Chatbot/blob/ad381044c362c099aacee73a32b97cc3bae4cb03/Screenshot%202025-11-08%20175932.png)
+
 ---
 
 ## 👩‍💻 Author
